@@ -15,14 +15,14 @@ btns.forEach((btn) => {
     console.log(e.target.classList);
     let classList = e.target.classList;
     if (classList.contains("btn1")) {
-      theme.style.setProperty("--theme-color", "#731a28ff");
+      theme.style.setProperty("--theme-color", "rgb(197, 20, 20)");
       console.log("btn1");
     } else if (classList.contains("btn2")) {
-      theme.style.setProperty("--theme-color", "rgb(169, 33, 53)");
+      theme.style.setProperty("--theme-color", "rgb(135, 26, 26)");
     } else if (classList.contains("btn3")) {
-      theme.style.setProperty("--theme-color", "rgb(223, 57, 82)");
+      theme.style.setProperty("--theme-color", "rgb(31, 95, 11)");
     } else if (classList.contains("btn4")) {
-      theme.style.setProperty("--theme-color", "rgb(255, 97, 120)");
+      theme.style.setProperty("--theme-color", "rgb(45, 145, 12)");
     } else {
       console.log("other");
     }
