@@ -19,7 +19,7 @@
   min-height: 100vh;
   display: grid;
   place-items: center;
-  background-image: linear-gradient(to left, #98011d, #000000);
+  background-image: linear-gradient(to left, #98011d, #0f670d);
   .card {
     min-width: 350px;
     max-width: 400px;
@@ -57,16 +57,16 @@
         cursor: pointer;
       }
       .btn1 {
-        background-color: #731a28ff;
+        background-color: rgb(197, 20, 20);
       }
       .btn2 {
-        background-color: rgb(169, 33, 53);
+        background-color: rgb(135, 26, 26);
       }
       .btn3 {
-        background-color: rgb(223, 57, 82);
+        background-color: rgb(31, 95, 11);
       }
       .btn4 {
-        background-color: rgb(255, 97, 120);
+        background-color: rgb(45, 145, 12);
       }
     }
   }
