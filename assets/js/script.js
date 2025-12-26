@@ -10,6 +10,7 @@ function myClock() {
   time.innerHTML = currentTime.toLocaleTimeString();
 }
 
+
 btns.forEach((btn) => {
   btn.addEventListener("click", (e) => {
     console.log(e.target.classList);
